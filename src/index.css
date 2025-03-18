@@ -6,7 +6,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #0b001838;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -30,6 +30,11 @@ a:hover {
   min-width: 320px;
   min-height: 100vh;
 } */
+
+input {
+  border:2px solid #f9f9f9;
+  border-radius: 8px;
+}
 
 h1 {
   font-size: 3.2em;

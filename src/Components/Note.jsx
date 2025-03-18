@@ -11,7 +11,7 @@ export default function Note() {
 
   return (
     <div>
-      <input type="text" value={text} onChange={handleChange} />
+      <input placeholder="type notes" type="text" value={text} onChange={handleChange} />
       <Markdown>{text}</Markdown>
     </div>
   );
