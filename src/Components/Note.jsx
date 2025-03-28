@@ -10,9 +10,16 @@ export default function Note() {
   };
 
   return (
-    <div>
-      <input placeholder="type notes" type="text" value={text} onChange={handleChange} />
-      <Markdown>{text}</Markdown>
+    <div class="p-8 ...">
+      <input
+        placeholder="type notes"
+        type="text"
+        value={text}
+        onChange={handleChange}
+      />
+      <div class="p-8 ...">
+        <Markdown>{text}</Markdown>
+      </div>
     </div>
   );
 }
